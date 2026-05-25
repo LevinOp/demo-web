@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(51, 41, 41);
+    min-height: 100vhs;
+    min-width: auto;
+}
+
+.continer{
+    color: rgb(14, 212, 64);
+   
+}
+.continer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+     position: relative;
+     top: 100px;
+    left: 20px;
+}
+.text{
+    color: rgb(255, 255, 255);
+    
+}
+.text p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+     position: relative;
+     top: 100px;
+    left: 20px;
+    font-size: 600;
+}
+.trans{
+    color: crimson;
+}
+.color{
+    color:rgb(14, 212, 64);
+}
+.img{
+  width: 35%;
+  position: absolute;
+  left: 56%;
+ top: 78px;
+ border: 2px solid;
+ border-color: darkcyan;
+ border-radius: 5px;
+ box-shadow: 2PX, rgb(0, 247, 255);
+ box-sizing: border-box;
+transform: translateY(3px);
+transition: 2ms;
+}
+.btn{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: 125px;
+    left: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color:crimson;
+    height: 30px;
+    width: 150px;
+}
+.btn:hover{
+    background: rgb(14, 212, 64);
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+.navbars ul{
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 0px;
+padding: 2px;
+overflow: hidden;
+position: absolute;
+top: 20px;
+left:2px;
+width: 100%;
+} 
+.navbars a{
+   text-decoration: none ;
+   color: rgb(255, 255, 255);
+   padding: 15px;
+   display: block;
+   justify-content:center;
+   height: 50px;
+   
+}
+.navbars li{
+    font-weight: 600;
+    float: left;
+    position: relative;
+    left: 69%;
+    
+}
+
+.navbars li:hover{
+    border-radius: 40px;
+    transform: translateY(-2px);
+    background-color: rgb(109, 109, 109);
+}
+.text2{
+    font: 1em sans-serif;
+    color: beige;
+    position: relative;
+    top: 230px;
+    font-weight: 600;
+    opacity: 77%;
+    margin: 15px;
+   
+}
+.text3{
+    padding: 0px;
+    position: absolute;
+    top: 20px;
+    left:45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+   color: beige;
+}
